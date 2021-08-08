@@ -3,8 +3,8 @@ from django.urls import path
 
 from .views import home, API_used, contact
 from django.views.static import serve
-from django.conf.urls.satic import static
-from django.conf.urls.satic import url
+from django.conf.urls.static import static
+from django.conf.urls.static import url
 
 
 urlpatterns = [
